@@ -1,29 +1,11 @@
 <template>
-  <!-- <v-card
-    color="teal accent-1"
-    flat
-    height="200px"
-    tile
-  > -->
-    <v-toolbar color="teal accent-1">
+    <v-toolbar color="primary">
+      <v-img src="../assets/logo-content/noir-sapling.png" max-height="80px" max-width="70px"></v-img>
       <v-toolbar-title>Climate Action Carleton</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text large href="/home">Home</v-btn>
       <v-btn text large href="/about">About</v-btn>
-
-      <!-- <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn> -->
     </v-toolbar>
-  <!-- </v-card> -->
 </template>
 
 <script>
